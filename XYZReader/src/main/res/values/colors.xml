@@ -29,4 +29,5 @@
     <color name="white">#fff</color>
     <color name="ltgray">#ffe0e0e0</color>
     <color name="mdgray">#8fff</color>
+    <color name="drkgray">#6000</color>
 </resources>
