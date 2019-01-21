@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,8 +12,7 @@
         android:layout_width="match_parent"
         android:background="?attr/colorPrimary"
         android:elevation="@dimen/toolbar_elevation"
-        android:layout_height="?actionBarSize"
-        android:layout_gravity="center|center_horizontal">
+        android:layout_height="?actionBarSize">
 
         <ImageView
             android:layout_width="match_parent"
@@ -34,10 +33,10 @@
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:scrollbarStyle="outsideOverlay"
-            android:paddingTop="@dimen/list_margin"
+            android:paddingTop="?actionBarSize"
             android:paddingLeft="@dimen/list_margin"
             android:paddingRight="@dimen/list_margin"
             android:paddingBottom="@dimen/list_bottom_margin" />
     </android.support.v4.widget.SwipeRefreshLayout>
 
-</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
